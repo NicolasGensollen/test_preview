@@ -10,6 +10,10 @@ on:
 
 concurrency: preview-${{ github.ref }}
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
