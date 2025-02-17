@@ -5,6 +5,7 @@ on:
       - main
 
 permissions:
+  content: write
   pages: write 
 
 jobs:
